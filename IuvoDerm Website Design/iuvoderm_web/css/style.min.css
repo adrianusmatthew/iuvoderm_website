@@ -3,8 +3,7 @@
  * https://gettemplates.co/roxy
  */
 html, body {
-  width: 100%;
-  overflow-x: hidden; }
+  width: 100%; }
 
 body {
   font-family: 'Century Gothic', sans-serif;
@@ -50,6 +49,14 @@ img {
 .fs-40 {
   font-size: 40px; }
 
+.iuvoderm-logo {
+  width: 33px;
+  height: 33px;
+  align-self: center;
+  background-size: cover;
+  margin-right: 10px;
+}
+
 section {
   position: relative; }
 
@@ -93,14 +100,14 @@ section {
   color: #fff;
   padding-top: 80px;
   padding-bottom: 80px;
-  background-image: url(../img/blog-1.jpg);
+  /* background-image: url(../img/bg.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   position: relative;
   border-radius: 0;
   margin-bottom: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   min-height: 100vh; }
   @media (max-width: 767px) and (orientation: landscape) {
     .jumbotron {
@@ -119,15 +126,15 @@ section {
     right: 0;
     background: #44a9bf;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #44a9bf, #a9eaf8);
+    background: -webkit-linear-gradient(to bottom right, #44a9bf, #a9eaf8);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #44a9bf, #a9eaf8);
+    background: linear-gradient(to bottom right, #44a9bf, #a9eaf8);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   .jumbotron h1 {
     line-height: .9;
     /* font-weight: bold; */
     display: inline-block;
-    letter-spacing: 16px;
+    /* letter-spacing: 16px; */
     /* border: 15px solid #fff; */
     /* padding: 30px; */
     font-size: 9rem;
@@ -145,6 +152,10 @@ section {
     opacity: 0;
     animation: 1s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
     animation-delay: .8s; }
+  .jumbotron iuvoderm-large-logo {
+    animation: 1s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
+    animation-delay: .8s;
+  }
 
 .jumbotron-single h1 {
   font-size: 3rem !important; }
@@ -504,8 +515,9 @@ section {
   font-size: 20px;
   color: #000; }
 
-.grid-portfolio {
-  overflow: hidden; }
+/* .grid-portfolio {
+  overflow: hidden; 
+} */
 
 .gutter-sizer {
   width: 2%; }
@@ -517,7 +529,8 @@ section {
 .grid-item {
   margin-bottom: 20px;
   border-radius: 5px;
-  overflow: hidden; }
+  /* overflow: hidden;  */
+}
   .grid-item:hover .grid-info {
     top: 50%;
     opacity: 1; }
@@ -564,7 +577,7 @@ section {
   top: 0;
   left: 0;
   background-color: #000;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   transition: 0.5s;
   padding-top: 60px;
   color: #fff; }
@@ -637,7 +650,8 @@ section {
   transition: all 0.3s ease-in-out;
   background-color: #f7f8f9;
   border-radius: 3px;
-  overflow: hidden; }
+  /* overflow: hidden;  */
+}
   .blog-item:hover {
     box-shadow: 0 5px 15px -5px #333;
     transform: translateY(-6px);
