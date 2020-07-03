@@ -1,7 +1,7 @@
 html, body {
   width: 100%;
   scroll-behavior: smooth;
-  font-family: 'Century Gothic', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   color: #fff;
 }
@@ -25,7 +25,33 @@ a:hover {
   color: #333399; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+  height: auto;
+}
+
+.img-fade-in {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.box-fade-in {
+  opacity: 0;
+  transition: .5s ease;
+  position: absolute;
+  top: 5.7rem;
+  left: 5.8rem;
+  /* transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%) */
+}
+
+.col-md-3:hover .img-fade-in {
+  opacity: 0.3;
+}
+
+.col-md-3:hover .box-fade-in {
+  opacity: 1;
+}
 
 .bg-fixed {
   background-size: cover; }
@@ -193,8 +219,8 @@ section {
 
 .btn-primary {
   display: inline-block;
-  background-color: #ff00cc;
-  border-color: #ff00cc;
+  background-color: transparent;
+  border-color: white;
   color: #fff; }
   .btn-primary:hover {
     background-color: #333399;
@@ -211,14 +237,11 @@ section {
     border-color: #333399;
     color: #fff; }
 
-.btn-shadow {
-  box-shadow: -5px 8px 20px 0px rgba(229, 16, 2, 0.15); }
-
 .btn-icon {
   color: #000; }
 
 .btn-link {
-  color: #ff00cc; }
+  color: #75ddf5; }
 
 /*=====  End of BUTTON  ======*/
 /*==========================================
@@ -712,7 +735,7 @@ section {
 =            FORM CONTROL            =
 ====================================*/
 .form-control:focus {
-  border-color: #ff00cc;
+  border-color: #44a9bf;
   box-shadow: 0 0 0 0.2rem rgba(253, 101, 90, 0.25); }
 
 .form-control::-webkit-input-placeholder {

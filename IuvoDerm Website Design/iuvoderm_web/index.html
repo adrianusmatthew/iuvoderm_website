@@ -16,14 +16,14 @@
     <link rel="icon" href="favicon.ico" />
 
     <!-- External CSS -->
-    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="vendor/select2/select2.min.css">
     <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="vendor/lightcase/lightcase.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Work+Sans:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.min.css">
@@ -43,7 +43,7 @@
         <nav id="header-navbar" class="navbar navbar-expand-lg py-4">
             <div class="container">
                 <a class="navbar-brand d-flex align-items-center text-white" href="/">
-                    <img src="img/logo_cropped.png" class="iuvoderm-logo"> 
+                    <img src="img/logo_cropped.png" class="iuvoderm-logo" alt="iuvoderm Logo"> 
                     <h3 class="font-weight-bolder mb-0">iuvoderm</h3>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header" aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,8 +83,13 @@
                     <h1 class="section-title">
                         What is iuvoderm?
                     </h1>
-                    <p class="section-sub-title" style="font-size: 1.3rem;">
-                        Stuff for what our stuff goes here, we should brainstorm this
+                </div>
+                <div class="col" data-aos="fade-up" style="text-align: justify;">
+                    <p class="section-sub-title">
+                        (Stats about diabetic foot ulcer)
+                    </p>
+                    <p class="section-sub-title">
+                        To tackle this problem, we formulated iuvoderm, a smart wound dressing designed to help chronic ulcer caregivers (from doctors to nurses) manage their patient’s treatments better and smarter with data driven decisions. Our dressing, while designed to improve healing of the ulcer, is also packed with sensors for monitoring the wound’s condition in real time, providing caregivers with diagnostics data that’ll help them make more informed medical decisions on how to proceed with their patient’s wound care.
                     </p>
                 </div>
             </div>
@@ -92,53 +97,225 @@
 
         <!-- Meet the Team -->
         <div id="the-team" class="container">
-            <!-- TODO: implement css for the "our team" column so it doesn't look awkward on mobile -->
             <div class="section-content">
                 <div class="title-wrap mb-5" data-aos="fade-up">
                     <h1 class="section-title">
                         Our Team
                     </h1>
-                    <div class="row" style="padding: 20px;">
-                        <div class="column" style="width: 25%;">
-                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQF3Q7C78xQtAw/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=qktmPzYSXb6i-idVa9Aph1KI5Nkigi-CoirwWWAKPYg" alt="test" style="border-radius: 50%">
-                            <p>
-                                Tiana Colantonio <br>
-                                CEO
-                            </p>
-                            <a class="nav-link" style="font-size: xx-large;" href="https://www.linkedin.com/in/tiana-colantonio/">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                        </div>
-                        <div class="column" style="width: 25%;">
-                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQFj3qlh90iZwA/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=k1rBowkg7MWlABIitBfCLsrtcQ9mYvtSi6pQd8RbSA4" alt="test" style="border-radius: 50%">
-                            <p>
-                                Jonathan Wu <br>
-                                COO
-                            </p>
-                            <a class="nav-link" style="font-size: xx-large;" href="https://www.linkedin.com/in/jhdwu/">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                        </div>
-                        <div class="column" style="width: 25%;">
-                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGWkkRGhopZ5A/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=PmV9VfnrKiPJLta-zt5A78iw3FCwq8kCpEo4lK28pI8" alt="test" style="border-radius: 50%">
-                            <p>
-                                Hillman Leung <br>
-                                CTO
-                            </p>
-                            <a class="nav-link" style="font-size: xx-large;" href="https://www.linkedin.com/in/hillman-leung-2b27bb196/">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                        </div>
-                        <div class="column" style="width: 25%;">
-                            <img src="https://media-exp1.licdn.com/dms/image/C5603AQEAyUqAoskKoQ/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=56mrbGepyWpZoqHUNjux5m4Zm8NSV1PHgzQiPT3gqJk" alt="test" style="border-radius: 50%">
-                            <p>
-                                Adrianus Sukuramsyah <br>
-                                CFO
-                            </p>
-                            <a class="nav-link" style="font-size: xx-large;" href="https://www.linkedin.com/in/adrianus-sukuramsyah/">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                        </div>
+                </div>
+                <!-- Founders row -->
+                <div class="row" data-aos="fade-up" style="padding: 20px; text-align: center; margin-bottom: 100px;">
+                    <div class="col-6 col-md-3">
+                        <img src="img/Tiana_Colantonio.png" alt="Tiana Colantonio" style="border-radius: 50%">
+                        <p style="font-weight:bold;">
+                            Tiana<br>Colantonio
+                        </p>
+                        <p>
+                            CEO
+                        </p>
+                        <a class="nav-link" style="font-size: xx-large;" href="https://www.linkedin.com/in/tiana-colantonio/">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md">
+                        <img src="img/Jonathan_Wu.png" alt="Jonathan Wu" style="border-radius: 50%">
+                        <p style="font-weight:bold;">
+                            Jonathan<br>Wu
+                        </p>
+                        <p>
+                            COO
+                        </p>
+                        <a class="nav-link" style="font-size: xx-large;" href="https://www.linkedin.com/in/jhdwu/">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md">
+                        <img src="img/Hillman_Leung.png" alt="Hillman Leung" style="border-radius: 50%">
+                        <p style="font-weight:bold;">
+                            Hillman<br>Leung
+                        </p>
+                        <p>
+                            CTO
+                        </p>
+                        <a class="nav-link" style="font-size: xx-large;" href="https://www.linkedin.com/in/hillman-leung-2b27bb196/">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md">
+                        <img src="img/Adrianus_Sukuramsyah.png" alt="Adrianus Sukuramsyah" style="border-radius: 50%">
+                        <p style="font-weight:bold;">
+                            Adrianus<br>Sukuramsyah
+                        </p>
+                        <p>
+                            CFO
+                        </p>
+                        <a class="nav-link" style="font-size: xx-large;" href="https://www.linkedin.com/in/adrianus-sukuramsyah/">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="title-wrap mb-5" data-aos="fade-up">
+                    <h1 class="section-title">
+                        Our Advisors
+                    </h1>
+                </div>
+                <!-- Advisors row -->
+                <div class="row" data-aos="fade-up" style="padding: 20px; text-align: center; margin-bottom: 100px;">
+                    <div class="col-6 col-md-3">
+                        <a href="https://uwaterloo.ca/systems-design-engineering/profile/mgorbet">
+                            <img src="img/Maud_Gorbet.png" alt="Maud Gorbet" class="img-fade-in" style="border-radius: 50%; width: 200px;">
+                            <div class="box-fade-in">
+                                <div style="color: #ffffff; font-size: 1rem;">
+                                    View Profile
+                                </div>
+                            </div>
+                        </a>
+                        <p style="font-weight:bold;">
+                            Maud Gorbet
+                        </p>
+                        <p>
+                            Interim Chair, University of Waterloo Systems Design Engineering
+                        </p>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a href="http://www.moleculargenetics.utoronto.ca/faculty/2014/9/30/william-navarre">
+                            <img src="img/William_Navarre.png" alt="William Navarre" class="img-fade-in" style="border-radius: 50%; width: 200px;">
+                            <div class="box-fade-in">
+                                <div style="color: #ffffff; font-size: 1rem;">
+                                    View Profile
+                                </div>
+                            </div>
+                        </a>
+                        <p style="font-weight:bold;">
+                            William Navarre
+                        </p>
+                        <p>
+                            Associate Chair, University of Toronto Dept. of Molecular Genetics
+                        </p>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a href="https://uwaterloo.ca/chemical-engineering/about/people/maucoin">
+                            <img src="img/Marc_Aucoin.png" alt="Marc Aucoin" class="img-fade-in" style="border-radius: 50%; width: 200px;">
+                            <div class="box-fade-in">
+                                <div style="color: #ffffff; font-size: 1rem;">
+                                    View Profile
+                                </div>
+                            </div>
+                        </a>
+                        <p style="font-weight:bold;">
+                            Marc Aucoin
+                        </p>
+                        <p>
+                            Associate Chair, University of Waterloo Chemical Engineering
+                        </p>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a href="https://www.linkedin.com/in/amrabdelgawad/">
+                            <img src="img/Amr_Abdelgawad.png" alt="Amr Abdelgawad" class="img-fade-in" style="border-radius: 50%; width: 200px;">
+                            <div class="box-fade-in">
+                                <div style="color: #ffffff; font-size: 1rem;">
+                                    View Profile
+                                </div>
+                            </div>
+                        </a>
+                        <p style="font-weight:bold;">
+                            Amr Abdelgawad
+                        </p>
+                        <p>
+                            COO & Co-founder, NERv Technology Inc.
+                        </p>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a href="https://www.linkedin.com/in/roderick-slavcev-7928813/">
+                            <img src="img/Roderick_Slavcev.png" alt="Roderic Slavcev" class="img-fade-in" style="border-radius: 50%; width: 200px;">
+                            <div class="box-fade-in">
+                                <div style="color: #ffffff; font-size: 1rem;">
+                                    View Profile
+                                </div>
+                            </div>
+                        </a>
+                        <p style="font-weight:bold;">
+                            Roderick Slavcev
+                        </p>
+                        <p>
+                            CSO, Mediphage Bioceuticals Inc. and Associate Professor, University of Waterloo School of Pharmacy
+                        </p>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a href="https://www.linkedin.com/in/vivian-cheung-msc-69a602133/">
+                            <img src="img/Vivian_Cheung.png" alt="Vivian Cheung" class="img-fade-in" style="border-radius: 50%; width: 200px;">
+                            <div class="box-fade-in">
+                                <div style="color: #ffffff; font-size: 1rem;">
+                                    View Profile
+                                </div>
+                            </div>
+                        </a>
+                        <p style="font-weight:bold;">
+                            Vivian Cheung
+                        </p>
+                        <p>
+                            Science Coordinator, Science Innovation Hub
+                        </p>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a href="https://uwaterloo.ca/science-and-business/people-profiles/okechukwu-okey-igboeli">
+                            <img src="img/Okey_Igboeli.png" alt="Okey Igboeli" class="img-fade-in" style="border-radius: 50%; width: 200px;">
+                            <div class="box-fade-in">
+                                <div style="color: #ffffff; font-size: 1rem;">
+                                    View Profile
+                                </div>
+                            </div>
+                        </a>
+                        <p style="font-weight:bold;">
+                            Okey Igboeli
+                        </p>
+                        <p>
+                            Founder, WatSolve Consulting Group
+                        </p>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a href="https://www.linkedin.com/in/kashifmemon/">
+                            <img src="img/Kashif_Memon.png" alt="Kashif Memon" class="img-fade-in" style="border-radius: 50%; width: 200px;">
+                            <div class="box-fade-in">
+                                <div style="color: #ffffff; font-size: 1rem;">
+                                    View Profile
+                                </div>
+                            </div>
+                        </a>
+                        <p style="font-weight:bold;">
+                            Kashif Memon
+                        </p>
+                        <p>
+                            Distinguished Professor, University of Waterloo Science and Business
+                        </p>
+                    </div>
+                </div>
+                <div class="title-wrap mb-5" data-aos="fade-up">
+                    <h1 class="section-title">
+                        With support from...
+                    </h1>
+                </div>
+                <!-- Organizations row -->
+                <div class="row" data-aos="fade-up" style="padding: 20px; margin-bottom: 100px;">
+                    <div class="col-12 col-md-6 d-flex justify-content-center align-items-center" style="padding-bottom: 30px; padding-top: 30px;">
+                        <a href="https://uwaterloo.ca/science-innovation-hub/">
+                            <img src="img/Science_Innovation_Hub.png" alt="Science Innovation Hub Logo">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex justify-content-center align-items-center" style="padding-bottom: 30px; padding-top: 30px;">
+                        <a href="https://concept.uwaterloo.ca/">
+                            <img src="img/Concept.png" alt="Concept Logo">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex justify-content-center align-items-center" style="padding-bottom: 30px; padding-top: 30px;">
+                        <a href="https://uwaterloo.ca/conrad-school-entrepreneurship-business/">
+                            <img src="img/Conrad.png" alt="Conrad UWaterloo Logo">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex justify-content-center align-items-center" style="padding-bottom: 30px; padding-top: 30px;">
+                        <a href="https://www.communitech.ca/">
+                            <img src="img/Communitech.png" alt="Communitech Logo">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -147,104 +324,66 @@
         <!-- Contact Us -->
         <section id="contact-us" class="section-content">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-5 offset-lg-1 mb-5 mb-lg-0" data-aos="fade-right">
-                        <div class="bg-white p-5 shadow">
-                            <div class="heading-section text-center">
-                                <h2 class="mb-4">
-                                    Contact Us
-                                </h2>
-                            </div>
-                            <form method="post" name="contact-us" action="">
-                                <div class="row">
-                                    <div class="col-md-12 form-group">
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Name">
-                                    </div>
-                                    <div class="col-md-12 form-group">
-                                        <input type="text" class="form-control" id="email" name="email" placeholder="Email">
-                                    </div>
-                                    <div class="col-md-12 form-group">
-                                        <input type="number" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Phone">
-                                    </div>
-                                    <div class="col-md-12 form-group">
-                                        <input type="text" class="form-control" id="websiteUrl" name="websiteUrl" placeholder="Website">
-                                    </div>
-                                    <div class="col-md-12 form-group">
-                                        <textarea class="form-control" id="message" name="message" rows="6" placeholder="Your Message ..."></textarea>
-                                    </div>
-                                    <div class="col-md-12 text-center">
-                                        <button class="btn btn-primary btn-shadow btn-lg" type="submit" name="submit">Send Message</button>
-                                    </div>
-                                </div>
-                            </form>
+                <div class="col-12 col-md-12 col-lg-12 d-flex justify-content-center align-items-center" data-aos="fade-up">
+                    <div class="p-5">
+                        <div class="heading-section text-center">
+                            <h2 class="mb-4">
+                                Interested in learning more?<br>
+                                Contact Us
+                            </h2>
                         </div>
+                        <form method="post" name="contact-us" action="">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label for="email">Your Email</label>
+                                    <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <label for="message">Message</label>
+                                    <textarea class="form-control" id="message" name="message" rows="6" placeholder="Your Message"></textarea>
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <button class="btn btn-primary btn-lg" type="submit" name="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                    <div class="col-lg-4 offset-lg-1" data-aos="fade-left">
-                        <h2 class="mb-4">
-                            Best solution to create any website. Pay once.
-                        </h2>
-                        <p class="mb-4">I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-    
-                        <ul class="list-inline py-2">
-                            <li class="list-inline-item text-center">
-                                <span class="lnr fs-40 lnr-rocket"></span>
-                                <p>Fast delivery</p>
-                            </li>
-                            <li class="list-inline-item text-center">
-                                <span class="lnr fs-40 lnr-magic-wand"></span>
-                                <p>Awesome design</p>
-                            </li>
-                            <li class="list-inline-item text-center">
-                                <span class="lnr fs-40 lnr-cog"></span>
-                                <p>Easy to customize</p>
-                            </li>
-                        </ul>
-    
-                        <a href="#" class="btn btn-link p-0">
-                            <span>PURCHASE NOW</span>
-                            <span class="lnr lnr-arrow-right"></span>
-                        </a>
-                    </div>
-                </div>
-                
+                </div>   
             </div>
         </section>
     </div>
 
     
-    <!-- <footer class="mastfoot my-3">
+    <footer class="mastfoot my-3">
         <div class="inner container">
             <div class="row">
-                <div class="col-lg-4 col-md-12 d-flex align-items-center">
-                    
+                <div class="col-md-12 d-flex align-items-center">
+                    <p class="mx-auto text-center mb-0">Find us on social media</p>
                 </div>
-                <div class="col-lg-4 col-md-12 d-flex align-items-center">
-                    <p class="mx-auto text-center mb-0">&copy; 2019 Roxy. Design by <a href="https://gettemplates.co" target="_blank">GetTemplates</a>.</p>
-                </div>
-            
-                <div class="col-lg-4 col-md-12">
+                <div class="col-md-12 align-items-center text-center">
                     <nav class="nav nav-mastfoot justify-content-center">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="https://www.facebook.com/iuvoderm" style="font-size: xx-large;">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="https://twitter.com/iuvoderm" style="font-size: xx-large;">
                             <i class="fab fa-twitter"></i>
                         </a>
-                        <a class="nav-link" href="#">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a class="nav-link" href="#">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                        <a class="nav-link" href="#">
-                            <i class="fab fa-youtube"></i>
+                        <a class="nav-link" href="https://www.linkedin.com/company/iuvoderm" style="font-size: xx-large;">
+                            <i class="fab fa-linkedin"></i>
                         </a>
                     </nav>
                 </div>
-                
             </div>
         </div>
-    </footer>	 -->
+    </footer>	
     
     <!-- External JS -->
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
