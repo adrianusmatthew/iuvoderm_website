@@ -32,11 +32,11 @@ try
         // If the field exists in the $fields array, include it in the email 
         if (isset($fields[$key])) {
             $emailText .= "$fields[$key]: $value\n";
-            if ($fields[name]) {
-                $subject .= "$fields[name] "
+            if ($key == 'name') {
+                $subject .= "{$value} ";
             }
-            if ($fields[email]) {
-                $subject .= "({$fields[email]}) "
+            if ($key == 'email') {
+                $subject .= "({$value}) ";
             }
         }
     }
