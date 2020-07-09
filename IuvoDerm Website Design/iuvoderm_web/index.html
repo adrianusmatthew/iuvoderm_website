@@ -329,7 +329,7 @@
                                 Contact Us
                             </h2>
                         </div>
-                        <form method="post" id="contact-form" action="contact-us.php">
+                        <form method="post" id="contact-form" name="contact-form" action="contact-us.php">
                             <div class="row">
                                 <div class="col-md-6 form-group">
                                     <label for="name">Your Name</label>
@@ -348,8 +348,9 @@
                                     <textarea class="form-control" id="message" name="message" rows="6" placeholder="Your Message" required="required" data-error="This field is required."></textarea>
                                 </div>
                                 <div class="col-md-12 text-center">
-                                    <button class="btn btn-primary btn-lg" type="submit" name="submit">Send Message</button>
+                                    <button class="btn btn-primary btn-lg" onclick="sendForm();">Send Message</button>
                                 </div>
+                                <div class="status"></div>
                             </div>
                         </form>
                     </div>
