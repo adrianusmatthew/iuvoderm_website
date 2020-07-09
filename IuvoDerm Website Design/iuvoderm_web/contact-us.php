@@ -1,10 +1,10 @@
 <?php
 
 // Address where the email will be sent from
-$from = 'iuvoderm@iuvoderm.com';
+$from = 'info@iuvoderm.com';
 
 // Destination address
-$sendTo = 'iuvoderm@iuvoderm.com';
+$sendTo = 'info@iuvoderm.com';
 
 // Subject of the email
 $subject = 'New Contact Form Message, from: ';
