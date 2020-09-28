@@ -160,7 +160,7 @@ section {
     display: inline-block;
     /* letter-spacing: 16px; */
     /* border: 15px solid #fff; */
-    /* padding: 30px; */
+    padding: 30px;
     font-size: 9rem;
     opacity: 0;
     animation: 1s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
@@ -171,7 +171,7 @@ section {
     font-style: italic;
     display: inline-block;
     /* border: 15px solid #fff; */
-    padding: 30px;
+    padding: 5px;
     font-size: 27px;
     opacity: 0;
     animation: 1s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
